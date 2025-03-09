@@ -1,0 +1,269 @@
+body{
+    text-align: center;
+    background-color:   #caaebf ;
+}
+
+.fondothhub{
+    background-image: url(../img/touhou_gener/templo_hakurei.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.fondoth6{
+    background-image: url(../img/touhou6/Scarlet_Devil_Mansion.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.fondoth6_2{
+    background-color: #80A9A9;
+}
+
+.fondoth7{
+    background-image: url(../img/touhou7/Hakugyokurou.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.fondoth8{
+    background-image: url(../img/touhou8/fondoth08.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.fondoth09{
+    background-image: url(../img/touhou9/fondoth09.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.juegos_saga{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.conten_juego{
+    padding: 3rem;
+}
+
+.juego{
+    width: 25rem;
+    height: 25rem;
+}
+
+.estrutura{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera{
+    background-color: #80A9A9A9;
+    width: 100%;
+}
+
+.lateral{
+    background-color: #80A9A9A9;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    width: 15%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.bloque{
+    background-color: #80A9A9A9;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+}
+
+.personajes_jug{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    max-height: none;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.personajes_jug2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: none;
+    max-height: none;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.activo{
+    max-height: none;
+}
+
+.espacio{
+    margin: 3rem;
+}
+
+.personajes_ant{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: justify;
+    align-items: center;
+    text-align: center;
+    height: none;
+    max-height: none;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.activo2{
+    max-height: none;
+}
+
+.conjuntoimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tamimg{
+    width: 25rem;
+}
+
+.tamimg2{
+    width: 12rem;
+}
+
+.tamimg3{
+    width: 20rem;
+}
+
+.seccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10rem;
+}
+
+.retraer{
+    margin-left: 10rem;
+    width: 10rem;
+}
+
+.seccionth6{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.comunity{
+    text-align: left;
+}
+
+.etiqueta{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.conten_etik{
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 400px;
+}
+
+.cerrar {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.menu{
+    text-align: left;
+}
+
+a{
+    color: #ec2626;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 1rem;
+}
+.comentarios {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.comentario {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+.musica-container {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.cancion {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 5px;
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touhou 6</title>
+    <link rel="stylesheet" href="../archivos_css_js/estilo.css">
+    
+    
+</head>
+<body class="fondoth6">
+    <div class="cabecera">
+        <h1>¡¡¡¡Bienvenidos a Gensokyo!!!!</h1>
+
+        <p>Informacion sobre los personajes de la saga de juegos Touhou</p>
+        <hr>
+    </div>
+    <div class="estrutura">
+        <div class="lateral">
+            <h3>Contenido: </h3>
+            <ul class="menu">
+                <li><a href="personajes.html">Personajes</a></li>
+                <li>Juegos</li>
+                    <ul>
+                        <li><a href="Index.html">Gensokyo Hub</a></li>
+                        <li><a href="pag_TH7.html">Touhou 7</a></li>
+                        <li><a href="pag_TH8.html">Touhou 8</a></li>
+                        <li><a href="pag_TH9.html">Touhou 9</a></li>
+                    </ul>
+            </ul>
+        </div>
+
+        <div class="bloque">
+            
+            <h1>Touhou 6 Embodiment of Scarlet Devil</h1>
+            
+            <hr>
+            
+            <div >
+                <div class="seccion">
+                    <h2>Personajes jugables</h2>
+                    <button class="retraer" onclick="retraer('seccionth6')">Mostar/Ocultar</button>
+                </div>
+                <div class="personajes_jug" id="seccionth6">
+                    <div class="espacio">
+                        <div class="personaje" onclick="mostrarTarjeta('Reimu Hakurei', '../img/touhou6/reimu.png', 'Sacerdotisa del Templo Hakurei y una de las protagonistas de Touhou06 Embodiment of Scarlet Devil.', 'Reimu conciente de la repentina aparicion de la niebla escarlata se dispone a atravesar el Lago de la Niebla donde le llevara a una mansion donde tendra que resolver el problema de la niebla')">
+                            <h3>Reimu Hakurei</h3>
+                            <img src="../img/touhou6/reimu.png" alt="img">
+                        </div>
+                        <div id="modal" class="etiqueta">
+                            <div class="conten_etik">
+                                <span class="cerrar" onclick="cerrarTarjeta()">&times;</span>
+                                <h2 id="nombre-personaje">reimu</h2>
+                                <img id="imagen-personaje" src="../img/touhou6/reimu.png" alt="">
+                                <p id="info-personaje"></p>
+                                <p id="info-personaje2"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="espacio">
+                        <div class="personaje" onclick="mostrarTarjeta('Marisa Kirisame', '../img/touhou6/marisa.png', 'Bruja curiosa resolvedora de problemas y ladrona de tomos magicos a tiempo parcial ademas de una de las protagonistas de Touhou06 Embodiment of Scarlet Devil.', 'Movida por la curiosidad Marisa se dispone a investigar la repentina aparicion de la niebla escarlata que cubre el Lago de la Niebla')">
+                            <h3>Marisa Kirisame</h3>
+                            <img src="../img/touhou6/marisa.png" alt="img">
+                        </div>
+                        <div id="modal" class="etiqueta">
+                            <div class="conten_etik">
+                                <span class="cerrar" onclick="cerrarTarjeta()">&times;</span>
+                                <h2 id="nombre-personaje">Marisa Kirisame</h2>
+                                <img id="imagen-personaje" src="../img/touhou6/reimu.png" alt="">
+                                <p id="info-personaje"></p>
+                                <p id="info-personaje2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="seccion">
+                    <h2>Personajes antagonicos</h2>
+                    <button class="retraer" onclick="retraer2('seccionth6ant')">Mostar/Ocultar</button>
+                </div>
+
+                <div class="personajes_ant" id="seccionth6ant">
+                    <div class="tamimg3">
+                        <div class="personaje" onclick="mostrarTarjeta('Rumia', '../img/touhou6/Th06Rumia.png', 'Youkai de la oscuridad y el primer jefe de Touhou06 Embodiment of Scarlet Devil.', 'Rumia se encuentra en el Lago de la Niebla y se dispone a atarcar a Reimu o Marisa en la travesia del mismo')">
+                            <h3>Rumia</h3>
+                            <img src="../img/touhou6/Th06Rumia.png" alt="img">
+                        </div>
+                        <div id="modal" class="etiqueta">
+                            <div class="conten_etik">
+                                <span class="cerrar" onclick="cerrarTarjeta()">&times;</span>
+                                <h2 id="nombre-personaje">Rumia</h2>
+                                <img id="imagen-personaje" src="../img/touhou6/Th06Rumia.png" alt="">
+                                <p id="info-personaje"></p>
+                                <p id="info-personaje2"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tamimg3">
+                        <div class="personaje" onclick="mostrarTarjeta('Cirno', '../img/touhou6/Th16Cirno.png', 'Hada de hielo y el segundo jefe de Touhou06 Embodiment of Scarlet Devil.', 'Cirno se encuentra en el Lago de la Niebla y se dispone a atarcar a Reimu o Marisa en la salida del mismo')">
+                            <h3>Cirno</h3>
+                            <img src="../img/touhou6/Th16Cirno.png" alt="img">
+                        </div>
+                        <div id="modal" class="etiqueta">
+                            <div class="conten_etik">
+                                <span class="cerrar" onclick="cerrarTarjeta()">&times;</span>
+                                <h2 id="nombre-personaje"></h2>
+                                <img id="imagen-personaje" src="" alt="">
+                                <p id="info-personaje"></p>
+                                <p id="info-personaje2"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tamimg3">
+                        <div class="personaje" onclick="mostrarTarjeta('Hong Meiling', '../img/touhou6/Th123Meiling.png', 'Guardiana de la puerta de la mansion escarlata y el tercer jefe de Touhou06 Embodiment of Scarlet Devil.', 'Meiling se encuentra en la entrada de la mansion escarlata y defendera la puerta de Reimu o Marisa')">
+                            <h3>Hong Meiling</h3>
+                            <img src="../img/touhou6/Th123Meiling.png" alt="img">
+                        </div>
+                        <div id="modal" class="etiqueta">
+                            <div class="conten_etik">
+                                <span class="cerrar" onclick="cerrarTarjeta()">&times;</span>
+                                <h2 id="nombre-personaje">Rumia</h2>
+                                <img id="imagen-personaje" src="../img/touhou6/Th06Rumia.png" alt="">
+                                <p id="info-personaje"></p>
+                                <p id="info-personaje2"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tamimg3">
+                        <div class="personaje" onclick="mostrarTarjeta('Patchouli Knowledge', '../img/touhou6/Th105Patchouli.png', 'Bruja de la biblioteca y el cuarto jefe de Touhou06 Embodiment of Scarlet Devil.', 'Patchouli se encuentra en la biblioteca de la mansion escarlata y se dispone a atarcar a Reimu o Marisa en la busqueda de la causa de la niebla')">
+                            <h3>Patchouli Knowledge</h3>
+                            <img src="../img/touhou6/Th105Patchouli.png" alt="img">
+                        </div>
+                        <div id="modal" class="etiqueta">
+                            <div class="conten_etik">
+                                <span class="cerrar" onclick="cerrarTarjeta()">&times;</span>
+                                <h2 id="nombre-personaje">Rumia</h2>
+                                <img id="imagen-personaje" src="../img/touhou6/Th06Rumia.png" alt="">
+                                <p id="info-personaje"></p>
+                                <p id="info-personaje2"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tamimg3">
+                        <div class="personaje" onclick="mostrarTarjeta('Sakuya Izayoi', '../img/touhou6/Th18Sakuya.png', 'Criada maestra de la mansion escarlata y el quinto jefe de Touhou06 Embodiment of Scarlet Devil.', 'Sakuya se encuentra en la mansion escarlata y se dispone a atarcar a Reimu o Marisa en causa de proteger los aposentos de su ama Remilia')">
+                            <h3>Sakuya Izayoi</h3>
+                            <img src="../img/touhou6/Th18Sakuya.png" alt="img">
+                        </div>
+                        <div id="modal" class="etiqueta">
+                            <div class="conten_etik">
+                                <span class="cerrar" onclick="cerrarTarjeta()">&times;</span>
+                                <h2 id="nombre-personaje"></h2>
+                                <img id="imagen-personaje" src="" alt="">
+                                <p id="info-personaje"></p>
+                                <p id="info-personaje2"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tamimg3">
+                        <div class="personaje" onclick="mostrarTarjeta('Remilia Scarlet', '../img/touhou6/Th105Remilia.png', 'Vampira escarlata y la jefa final de Touhou06 Embodiment of Scarlet Devil.', 'Remilia se encuentra en la mansion escarlata y se dispone a atarcar a Reimu o Marisa a causa de querer detener su plan de la niebla escarlata')">
+                            <h3>Remilia Scarlet</h3>
+                            <img src="../img/touhou6/Th105Remilia.png" alt="img">
+                        </div>
+                        <div id="modal" class="etiqueta">
+                            <div class="conten_etik">
+                                <span class="cerrar" onclick="cerrarTarjeta()">&times;</span>
+                                <h2 id="nombre-personaje"></h2>
+                                <img id="imagen-personaje" src="" alt="">
+                                <p id="info-personaje"></p>
+                                <p id="info-personaje2"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="tamimg"></div>--><!--aqui no hay nada para separar la columna encontrar otras maneras-->
+                    <div class="tamimg3">
+                        <h2>Boss extra</h2>
+                        <div class="personaje" onclick="mostrarTarjeta('Flandre Scarlet', '../img/touhou6/Th06Flandre.png', 'Hermana menor de Remilia y boss extar de Touhou06 Embodiment of Devil','Flandre es un boss extra asi que para acceder a ella debes de derrotar a su hermana Remilia en dificultad normal o superior. Una vez resulto el problema de la niebla Flandre escapa del sotano de la masion mientras su hermana no se encontraba en ella asi que Patchouli como maestra de Flandre invoca una tormenta alrrededor de la masion para evitar que escape aqui nos emfrentaremos a ellas')">
+                            <h3>Flandre Scarlet</h3>
+                            <img src="../img/touhou6/Th06Flandre.png" alt="img">
+                        </div>
+                        <div id="modal" class="etiqueta">
+                            <div class="conten_etik">
+                                <span class="cerrar" onclick="cerrarTarjeta()">&times;</span>
+                                <h2 id="nombre-personaje"></h2>
+                                <img id="imagen-personaje" src="" alt="">
+                                <p id="info-personaje"></p>
+                                <p id="info-personaje2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comunity">
+                <hr>
+                <h2>Comentarios</h2>
+    
+                <div id="comentarios" class="comentarios">
+                    <!-- Aquí se mostrarán los comentarios -->
+                </div>
+            
+                <h3>Agregar Comentario</h3>
+                <form id="comentario-form">
+                    <input type="text" id="nombre" placeholder="Tu nombre" required>
+                    <textarea id="mensaje" placeholder="Escribe tu comentario..." required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="../archivos_css_js/script.js"></script>
+</body>
+</html>
